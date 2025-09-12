@@ -1,0 +1,7 @@
+FROM prom/prometheus:latest
+
+# Copier la configuration personnalisée
+COPY prometheus.yaml /etc/prometheus/prometheus.yml
+
+# Exposer le port
+EXPOSE 9090
