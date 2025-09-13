@@ -20,3 +20,6 @@ if __name__ == '__main__':
     # run() method of Flask class runs the application
     # on the local development server.
     app.run()
+#then go to localgost3000
+#add data source
+#url localhost 9000 theen add 1860
